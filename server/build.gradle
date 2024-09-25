@@ -1,0 +1,18 @@
+apply plugin :'application'
+jar
+{
+archiveName 'chat_server.jar'
+}
+dependencies
+{
+compile files('c:/uec20187am/chat/common/build/libs/chat_common.jar',
+'c:/uec20187am/tcp/server/build/libs/server.jar',
+'c:/mysql/mysql-connector-java-8.0.13.jar',
+'c:/gson/gson-2.8.2.jar',
+'c:/uec20187am/tcp/client/build/libs/client.jar',
+'c:/uec20187am/logger/build/libs/logger.jar',
+'c:/uec20187am/tcp/common/build/libs/common.jar'
+)
+}
+
+mainClassName='com.thinking.machines.chat.server.ChatServer'

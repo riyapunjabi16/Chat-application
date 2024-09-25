@@ -1,0 +1,12 @@
+apply plugin :'application'
+dependencies
+{
+compile files('C:/uec20187am/chat/common/build/libs/chat_common.jar',
+'C:/uec20187am/tcp/client/build/libs/client.jar',
+'C:/gson/gson-2.8.2.jar')
+}
+run
+{
+args=["Register","myCutie","cute@3450","rrr#","mintu","980875578"]
+}
+mainClassName='com.thinking.machines.chat.client.ChatClient'

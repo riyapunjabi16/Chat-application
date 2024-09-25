@@ -1,0 +1,10 @@
+{
+	"chatServerIncomingPortNumber": 5000,
+	"chatServerOutgoingPortNumber": 5001,
+        "driver": "com.mysql.jdbc.Driver",
+	"databaseConnectionString": "jdbc:mysql://localhost:3306/chatdb",
+	"databaseUsername": "chatuser",
+	"databasePassword": "chatuser",
+	"logStore": "c:/uec20187am/chat/server/testcases",
+	"debugMode": "true"
+}
